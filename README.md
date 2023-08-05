@@ -1,17 +1,14 @@
 # false_water_cobra
 Python Script that performs single IP searches 
 
-!!!There are prerequisites to using this script!!!
+# There are prerequisites to using this script
 
-#Install these libraries via commandline(Admin)
-pip install requests
+### Install requirements with ``pip install -r requirements.txt``
 
-pip install ipwhois
-
-pip install shodan
-
-#You will need API keys for Shodan, ABuseIPDB, and VirusTotal
+## You will need API keys for Shodan, ABuseIPDB, and VirusTotal
 
 VirusTotal and AbuseIPDB are free upon sign up
 
 Shodan does come at a cost 
+
+Put them in a file in root called ``.env``
